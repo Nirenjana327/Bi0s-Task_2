@@ -122,7 +122,7 @@ void setup()
 void loop() {  
   HOURS  \= 0; // Reset HOURS before reading new value
 
-    // `Serial.available()` checks **how many bytes** have arrived at the serial port and are waiting to be read.
+    //`Serial.available()` checks **how many bytes** have arrived at the serial port and are waiting to be read.
 
     if (**Serial**.available() \> 0) {  
     HOURS \= **Serial**.parseInt(); // Read an integer from Serial as HOURS  
