@@ -1,6 +1,6 @@
 # 1\.
 
-![][image1]  
+// ![][image1]  
 const int nLEDs \= 5;  
 int ledPins\[nLEDs\] \= {2,4,15,16,5};   // pins used  
 void setup() {  
